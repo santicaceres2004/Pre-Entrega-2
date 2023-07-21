@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: bisque;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+  button:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+  }
+  
+  ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para los botones de agregar y eliminar */
+  #btnAdd {
+    background-color: #007bff;
+  }
+  
+  #btnLess {
+    background-color: #dc3545;
+  }
+
+  #searchButton {
+    padding: 2px 4px; /* Ajusta el padding según tus preferencias */
+    font-size: 14px; /* Tamaño de fuente del texto */
+    border: 2px solid rgb(10, 108, 146); /* Borde del botón */
+    border-radius: 5px; /* Radio del borde para hacerlo más redondeado */
+    background-color: rgb(0, 94, 255); /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
+  /* Estilo cuando el usuario pasa el mouse por encima del botón */
+  #searchButton:hover {
+    background-color: #1924c1; /* Cambia el color de fondo al pasar el mouse */
+  }
+  
+  /* Estilo cuando el botón está presionado (active) */
+  #searchButton:active {
+    background-color: #72bffe; /* Cambia el color de fondo al hacer clic */
+  }
+  
+  #btnFilter {
+    padding: 2px 4px; /* Ajusta el padding según tus preferencias */
+    font-size: 14px; /* Tamaño de fuente del texto */
+    background-color:  #4CAF50; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
